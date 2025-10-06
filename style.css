@@ -1,0 +1,145 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: lightgray;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+h {
+  border: 2px solid #2563eb;;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+  color: #1e3a8a;
+  text-align: center;
+}
+
+
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  align-self: flex-start;
+}
+
+
+header {
+  background-color:#1e3a8a; 
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid ;
+}
+
+
+nav{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  color: #1e3a8a;;
+  border: 1px solid #2563eb;;
+  border-radius: 5px;
+}
+
+
+section {
+  padding: 20px;
+  margin: 15px auto; 
+  border: 2px solid #2563eb;
+  background-color: white;
+  color: #1e3a8a;
+  border-radius: 10px;
+  max-width: 70%; 
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer {
+  padding: 10px;
+  margin-top: auto;
+  background-color: #1e3a8a;
+  text-align: center;
+  border-top: 2px solid #2563eb;
+}
+
+#contact {
+  padding: 15px;
+  margin: 20px;
+  border: 2px solid #2563eb;
+  background-color: white;
+  color: #1e3a8a;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+p {
+  max-width: 60%; 
+  margin: 0 auto;
+}
+
+.image-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the cards */
+  margin-top: 20px;
+}
+
+.card {
+  width: 200px; /* Set a fixed width for the cards */
+  text-align: center;
+  border: 2px solid #2563eb;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a 3D effect */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.card img {
+  width: 100%; /* Ensures the image fits within the card */
+  border-radius: 10px;
+}
+
+.link{
+  color: rgb(167, 4, 167);
+}
+
+.link:link, .link:visited {
+  color: rgb(167, 4, 167);
+}
+
+ul {
+  max-width: 50%; /* Restricts the width of the list */
+  text-align: center; /* Centers the text inside the list */
+  margin: 0 auto; /* Centers the list horizontally */
+  padding: 0; /* Removes default padding */
+}
